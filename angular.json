@@ -15,7 +15,7 @@
       },
       "root": "projects/demo-app",
       "sourceRoot": "projects/demo-app/src",
-      "prefix": "app",
+      "prefix": "labs",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
