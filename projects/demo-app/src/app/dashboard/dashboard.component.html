@@ -1,4 +1,1 @@
-<labs-photo></labs-photo>
-<labs-photo></labs-photo>
-<labs-photo></labs-photo>
-<labs-photo></labs-photo>
+<labs-photo *ngFor="let photo of photos$ | async" [photo]="photo"></labs-photo>

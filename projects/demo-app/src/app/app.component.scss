@@ -1,0 +1,31 @@
+@use '@angular/material' as mat;
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.add {
+  position: fixed;
+  right: 4rem;
+  bottom: 4rem;
+  font-size: 1.5rem;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: column;
+  mat-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+:host {
+  display: block;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

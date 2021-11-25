@@ -2,7 +2,7 @@
 labs-photo {
   --items-per-row: 3;
   --gap-sum: calc(1rem * calc(var(--items-per-row) - 1));
-  max-width: calc((100vw - 2rem/* host padding */ - var(--gap-sum)) / var(--items-per-row));
+  width: calc((100vw - 2rem/* host padding */ - var(--gap-sum)) / var(--items-per-row));
 }
 
 
